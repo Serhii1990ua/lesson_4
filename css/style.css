@@ -1,0 +1,117 @@
+@import url(https://fonts.googleapis.com/css?family=Montserrat:100,200,300,regular,500,600,700,800,900,100italic,200italic,300italic,italic,500italic,600italic,700italic,800italic,900italic&display=swap&subset=cyrillic-ext);
+
+@font-face {
+	font-family: 'Raleway';
+	src: url('../fonts/Raleway-Medium.woff2') format('woff2'),
+		url('../fonts/Raleway-Medium.woff') format('woff');
+	font-weight: 500;
+	font-style: normal;
+	font-display: swap;
+}
+
+@font-face {
+	font-family: 'Raleway';
+	src: url('../fonts/Raleway-Regular.woff2') format('woff2'),
+		url('../fonts/Raleway-Regular.woff') format('woff');
+	font-weight: normal;
+	font-style: normal;
+	font-display: swap;
+}
+
+/* NULL begin */
+
+*,
+*::before,
+*::after {
+	margin: 0;
+	padding: 0;
+	border: 0;
+}
+li {
+	list-style: none;
+}
+a,
+a:visited {
+	text-decoration: none;
+}
+a:hover {
+	text-decoration: none;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+	font-weight: inherit;
+	font-size: inherit;
+}
+img {
+	vertical-align: top;
+}
+html {
+	font-size: 16px; /* по умолчанию */
+}
+body {
+	/* font-family: "Gilroy", sans-serif; */
+	font-family: "Montserrat", sans-serif;
+	line-height: 1;
+}
+
+/* NULL End */
+body{
+	margin: 0 50px;
+}
+header{
+	margin: 15px 0px;
+}
+nav{
+	font-weight: bold;
+}
+p{
+	margin-bottom: 10px;
+}
+ul{
+	margin: 0 0 0 10px;
+}
+ol{
+	margin: 0 0 0 10px;
+}
+li{
+	margin-bottom: 5px;
+	font-size: 14px;
+	padding-left: 12px;
+	background-image: url(../img/icon/list_icon.png);
+	background-position: 0 2px;
+	background-size: 10px 10px;
+	background-repeat: no-repeat;
+}
+li ul li{
+	padding-left: 12px;
+	background-image: url(../img/icon/list_second_icon.png);
+	background-position: 0 2px;
+	background-size: 10px 10px;
+	background-repeat: no-repeat;
+}
+li ol li{
+	padding-left: 12px;
+	background-image: url(../img/icon/list_second_icon.png);
+	background-position: 0 3px;
+	background-size: 10px 10px;
+	background-repeat: no-repeat;
+}
+li ol li:first-child{
+	margin-top: 5px;
+}
+
+.raleway{
+	font-family:"Raleway", sans-serif;
+	font-weight: 500;
+	font-size: 30px;
+	margin: 10px 0 10px 30px;
+}
+img{
+	margin: 0 0 10px 0;
+}
+.quotation {
+}
